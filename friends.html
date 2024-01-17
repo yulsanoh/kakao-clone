@@ -34,18 +34,24 @@
         </svg>
       </div>
     </header>
-    <main class="main">
-      <section class="main__header">
-        <h1 class="main__header__title">Welcome to KakaoTalk Clone</h1>
-        <p class="main__header__desc">If you have a Kakao Account, log in with your email or phone number.</p>
-      </section>
-    </main>
-    <form action="friends.html" method="GET" id="login-form" class="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" required />
-      <input name="password" type="password" placeholder="Password" required />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Kakao Account or Password</a>
-    </form>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"><i class="fa-solid fa-user fa-xl"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fa-regular fa-comment fa-xl"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fa-solid fa-ellipsis fa-xl"></i></a>
+        </li>
+      </ul>
+    </nav>
+
     <script src="https://kit.fontawesome.com/59f804b962.js" crossorigin="anonymous"></script>
   </body>
 </html>
