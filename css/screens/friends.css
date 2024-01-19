@@ -3,6 +3,7 @@
   display: block;
   background-color: #fafafa;
   padding: 16px 0px;
+  margin-bottom: 12px;
 }
 
 .friends-display-link svg {
@@ -11,4 +12,17 @@
 
 .friends-display-link span {
   margin: 0px 8px 0px 4px;
+}
+
+.friends-screen__channel {
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px solid #ccc;
+}
+
+.friends-screen__channel-header {
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: space-between;
+  color: #aaa;
 }

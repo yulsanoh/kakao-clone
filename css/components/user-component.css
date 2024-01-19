@@ -1,7 +1,19 @@
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.user-component {
+  justify-content: space-between;
+}
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
   align-items: center;
+}
+
+.user-component__column:last-child {
+  color: #aaa;
 }
 
 .user-component__avatar {
@@ -11,8 +23,24 @@
   margin-right: 12px;
 }
 
-.user-component__title {
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+}
+
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.user-component__title--bold {
   font-weight: 600;
+  font-size: 20px;
+}
+
+.user-component__title {
   font-size: 20px;
 }
 
