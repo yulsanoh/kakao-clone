@@ -52,59 +52,73 @@
     </header>
 
     <main class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span
-          ><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a
+        <span class="find-header__new-alert">
+          <span class="nav__new-alert"></span>
+          <a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a
         ></span>
       </div>
     </main>
 
-    <a href="#" class="friends-display-link"
-      ><i class="fa-solid fa-circle-info"></i><span>Friends' Names Display</span
-      ><i class="fa-solid fa-chevron-right fa-xs"></i
-    ></a>
-
-    <section class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://avatars.githubusercontent.com/u/156407033?v=4"
-            alt=""
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--bold">
-              오율산
-            </h4>
-            <!-- <p class="user-component__subtitle">this is subtitle</p> -->
-          </div>
+    <section class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-qrcode"></i>
+          <span>QR Code</span>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-chevron-up fa-xs"></i>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-address-book"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-fingerprint"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-envelope"></i>
+          <span>Invite</span>
         </div>
       </div>
 
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://avatars.githubusercontent.com/u/156407033?v=4"
-            alt=""
-            class="user-component__avatar user-component__avatar--sm"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">오율산</h4>
-          </div>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <p>You have no recommended friends.</p>
+      </div>
+
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span
+            >Go to Openchat Home <i class="fa-solid fa-chevron-right fa-xs"></i
+          ></span>
         </div>
-        <div class="user-component__column">
-          <span>2 <i class="fa-solid fa-chevron-right fa-xs"></i></span>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#BTS</h5>
+            <h6 class="open-post__hashtags">#bts#army#friends</h6>
+            <div class="open-post__members">
+              <img
+                src="https://avatars.githubusercontent.com/u/156407033?v=4"
+                alt=""
+              />
+              <span class="open-post__member-count">802 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img
+                src="https://avatars.githubusercontent.com/u/156407033?v=4"
+                alt=""
+              />
+              <div class="open-post__heart-count">
+                <i class="fa-solid fa-heart fa-xs"></i><span>326</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -113,7 +127,7 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fa-solid fa-user fa-xl"></i
+            ><i class="fa-regular fa-user fa-xl"></i
           ></a>
         </li>
         <li class="nav__btn">

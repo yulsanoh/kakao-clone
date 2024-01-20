@@ -3,6 +3,7 @@
   display: block;
   background-color: #fafafa;
   padding: 16px 0px;
+  margin-top: -16px;
   margin-bottom: 12px;
 }
 
@@ -17,7 +18,7 @@
 .friends-screen__channel {
   margin-top: 24px;
   padding-top: 12px;
-  border-top: 1px solid #ccc;
+  border-top: var(--main-border);
 }
 
 .friends-screen__channel-header {
