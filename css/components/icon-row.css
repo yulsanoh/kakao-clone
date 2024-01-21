@@ -2,6 +2,12 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  width: 100%;
+}
+
+.icon-row:last-child {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .icon-row__icon {

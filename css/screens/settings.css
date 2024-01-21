@@ -4,10 +4,15 @@
   font-size: 18px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .settings__setting svg {
   margin-right: 16px;
   font-size: 20px;
   color: var(--grey);
+}
+
+.settings__setting__column:last-child {
+  opacity: 0.5;
 }
